@@ -30,7 +30,6 @@ function App()
       setResult('');
       const response = await openai.createImage({
         prompt: prompt,
-        size: "512x512",
         n: 1,
         model: 'dall-e-3',
       });
