@@ -32,6 +32,7 @@ function App()
         prompt: prompt,
         size: "512x512",
         n: 1,
+        model: 'dall-e-3',
       });
       setResult(response.data.data[0].url);
       setLoading(false);
